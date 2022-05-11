@@ -5,6 +5,7 @@ const debug = require('debug')('app:module-products-controller');
 const { saleService } = require('./services');
 const { Response } = require('../common/response');
 
+
 module.exports.salesController = {
     getPurchaseRecord: async (req, res) => {
         try {
